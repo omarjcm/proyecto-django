@@ -33,6 +33,12 @@ Ingresar a la carpeta del proyecto.
 
 En este momento, se encuentran las tablas de autenticacion en la base de datos.
 
+Para realizar cambios en el archivo de configuracion del proyecto django antes de la base de datos se debe utilizar la siguiente linea de comando.
+
+> python manage.py makemigrations
+
+Luego, de ejecutar esta linea de comando, nuevamente se aplica la linea de comando para sincronizar el modelo en django con respecto a la Base de Datos.
+
 ### Creacion de super usuario
 Para la creacion de usuario, se deben ingresar los siguientes datos: usuario, email y clave.
 
