@@ -13,7 +13,10 @@
 
 ### Para instalar django en el armbiente virtual
 > pip install django -U
+
 > pip install psycopg2
+
+> pip install Pillow
 
 ### Comprobar las dependencias
 > pip freeze
@@ -38,5 +41,6 @@ Para la creacion de usuario, se deben ingresar los siguientes datos: usuario, em
 ### Creacion del modulo users 
 > python manage.py startapp users
 
+> python manage.py startapp posts
 
 
