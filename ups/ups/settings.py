@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'ups.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'platzigram',
+        'NAME': 'ups',
         'USER': 'postgres',
         'PASSWORD': 'inexcelsisdeo',
         'HOST': 'localhost',
