@@ -30,4 +30,13 @@ Ingresar a la carpeta del proyecto.
 
 En este momento, se encuentran las tablas de autenticacion en la base de datos.
 
+### Creacion de super usuario
+Para la creacion de usuario, se deben ingresar los siguientes datos: usuario, email y clave.
+
+> python manage.py createsuperuser
+
+### Creacion del modulo users 
+> python manage.py startapp users
+
+
 
