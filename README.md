@@ -25,6 +25,7 @@
 Ingresar a la carpeta del proyecto.
 
 > cd ups
+
 > python manage.py migrate
 
 En este momento, se encuentran las tablas de autenticacion en la base de datos.
